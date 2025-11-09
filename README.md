@@ -6,7 +6,7 @@ Proyek ini menunjukkan integrasi **Google Gemini 2.5 Flash** ke dalam RESTful AP
 ## Cara pakai (singkat)
 1. Clone:
 ```bash
-git clone https://github.com/yourusername/your-repo.git
+git clone https://github.com/maarsyaf/gemini-ai-api-project.git
 cd your-repo
 ```
 2. Install:
