@@ -1,6 +1,6 @@
 # Gemini 2.5 Flash — API Integration (Node.js + Express)
 
-Proyek ini menunjukkan integrasi **Google Gemini 2.5 Flash** ke dalam RESTful API menggunakan **Node.js** dan **Express**. Mendukung input multimodal: **text**, **image**, **document**, dan **audio**.
+Proyek ini bertujuan untuk integrasi **Google Gemini 2.5 Flash** ke dalam RESTful API menggunakan **Node.js** dan **Express**. Mendukung input multimodal: **text**, **image**, **document**, dan **audio**.
 
 ## Cara pakai (singkat)
 1. Clone:
@@ -12,6 +12,7 @@ cd gemini-ai-api-project
 2. Install:
 ```bash
 npm install express dotenv @google/genai multer
+npm install -g nodemon
 
 ```
 3. Buat `.env`:
@@ -35,7 +36,7 @@ API berjalan di `http://localhost:3000`.
 - Gabungkan `prompt + file` sebagai input ke method seperti `generateContent()`.
 
 ## Tujuan
-Submission Hacktiv8: membuktikan kemampuan membangun API multimodal yang memanfaatkan Google Gemini 2.5 Flash untuk menganalisis, mendeskripsikan, atau mentranskrip konten dunia nyata.
+Submission Hacktiv8: membuktikan kemampuan membangun API multimodal yang memanfaatkan Google Gemini 2.5 Flash untuk menganalisis, mendeskripsikan, atau mentranskrip konten.
 
 ## Tech
 - Node.js, Express  
