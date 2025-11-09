@@ -12,7 +12,6 @@ cd your-repo
 ```
 2. Install:
 ```bash
-npm init -y
 npm install express dotenv @google/genai multer
 
 ```
@@ -28,7 +27,6 @@ node index.js
 nodemon index.js
 
 ```
-
 API berjalan di `http://localhost:3000`.
 
 ## Implementasi singkat
