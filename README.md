@@ -1,6 +1,5 @@
 # Gemini 2.5 Flash — API Integration (Node.js + Express)
 
-Ringkasan singkat  
 Proyek ini menunjukkan integrasi **Google Gemini 2.5 Flash** ke dalam RESTful API menggunakan **Node.js** dan **Express**. Mendukung input multimodal: **text**, **image**, **document**, dan **audio**.
 
 ## Cara pakai (singkat)
@@ -19,7 +18,6 @@ npm install express dotenv @google/genai multer
 ```
 API_KEY=your_gemini_api_key_here
 PORT=3000
-
 ```
 4. Jalankan:
 ```bash
